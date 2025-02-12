@@ -5,7 +5,7 @@
 
 body{
     font: 16px Roboto;
-    background: url(images/Map-Background.png) no-repeat;
+    background: url(images/Map-Background.png) repeat;
     display: flex;
     flex-direction: column;
 }
