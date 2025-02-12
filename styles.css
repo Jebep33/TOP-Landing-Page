@@ -5,9 +5,15 @@
 
 body{
     font: 16px Roboto;
-    background: url(images/Map-Background.png);
+    background: url(images/Map-Background.png) no-repeat;
     display: flex;
     flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 /* header section */
@@ -20,7 +26,7 @@ header{
 }
 
 header img {
-    flex: 0 1 20%;
+    height: 40px;
 }
 
 nav{
@@ -32,12 +38,6 @@ nav{
     list-style: none;
     display: flex;
     gap: 50px;
-}
-
-.menu ul a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
 }
 
 /* hero section */
@@ -117,4 +117,51 @@ nav{
 .quote p{
     display: flex;
     justify-content: flex-end;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-box {
+    background: url(images/Parchment.png);
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 20px 80px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.cta-main-text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cta-subtext {
+    font-size: 20px;
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.cta-button span{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+/* footer */
+
+footer {
+    background: #f5f5f595;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
 }
